@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Liên Hệ - Di Tích Lịch Sử Bến Tre</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo Bến Tre">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="danh-sach-di-tich.html">Danh sách di tích</a></li>
+                    <li><a href="huong-dan-du-lich.html">Hướng dẫn du lịch</a></li>
+                    <li><a href="lien-he.html" class="active">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="contact-section" style="margin-top: 30px;">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Địa Chỉ</h3>
+                            <p>Số 7 Đường Nguyễn Huệ, TP. Bến Tre</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <h3>Điện Thoại</h3>
+                            <p><a href="tel:0346928208">0346928208</a></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p><a href="mailto:ht866710@gmail.com">ht866710@gmail.com</a></p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <h3>Giờ Làm Việc</h3>
+                            <p>Thứ 2 - Chủ nhật: 7:00 - 17:00</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>Gửi Tin Nhắn</h2>
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder="Họ và tên">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Số điện thoại">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" required
+                                    placeholder="Nội dung tin nhắn"></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Gửi Tin Nhắn</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <h2>Bản Đồ</h2>
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.0913257490893!2d106.37519631478455!3d10.24001049327397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310aa77f191485df%3A0x815e5937f1ee5509!2zNyBOZ3V54buFbiBIdeG7hywgUGjGsOG7nW5nIDEsIELhur9uIFRyZSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1647834687325!5m2!1svi!2s"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-section">
+                <h3>Về Chúng Tôi</h3>
+                <p>Website giới thiệu di tích lịch sử văn hóa Bến Tre - nơi lưu giữ và phát huy các giá trị văn hóa
+                    truyền thống của quê hương.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liên Kết Nhanh</h3>
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="danh-sach-di-tich.html">Danh sách di tích</a></li>
+                    <li><a href="huong-dan-du-lich.html">Hướng dẫn du lịch</a></li>
+                    <li><a href="lien-he.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Thông Tin Liên Hệ</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Số 7 Đường Nguyễn Huệ, TP. Bến Tre</li>
+                    <li><i class="fas fa-phone"></i> 0346928208</li>
+                    <li><i class="fas fa-envelope"></i> ht866710@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kết Nối</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/1CJdWMsvn9/?mibextid=qi2Omg" class="social-link"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/@huynhtrann" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/hhtaanrt?igsh=MTF2djBkMGU5bHhrZA==&utm_source=ig_contact_invite"
+                        class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Di Tích Lịch Sử Văn Hóa Bến Tre. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
